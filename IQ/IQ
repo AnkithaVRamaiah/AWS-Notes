@@ -1,0 +1,417 @@
+Here are 100 interview questions that cover a broad range of topics related to AWS Cloud:
+
+### General AWS Cloud Questions
+1. What is cloud computing?
+2. What are the different types of cloud services?
+3. What are the various types of cloud deployment models?
+4. What is AWS, and what are its key services?
+5. How does AWS pricing work?
+6. What are the benefits of using AWS?
+7. Can you explain the AWS shared responsibility model?
+8. What is the AWS free tier, and what does it include?
+9. How do you secure data in the cloud?
+10. What is the difference between public, private, and hybrid clouds?
+
+### AWS Core Services
+11. What is Amazon EC2?
+12. How do you launch an EC2 instance?
+13. What is Amazon S3?
+14. What are S3 storage classes?
+15. Explain Amazon VPC and its components.
+16. What is AWS Lambda?
+17. What is Amazon RDS?
+18. How do you manage databases in Amazon RDS?
+19. What is Amazon CloudFront?
+20. What is Amazon Route 53?
+
+### AWS Security
+21. What is AWS IAM?
+22. How do you create an IAM policy?
+23. What are AWS security groups?
+24. What is AWS KMS?
+25. How do you enable MFA for AWS accounts?
+26. What is the difference between IAM roles and IAM users?
+27. What is AWS Shield?
+28. What is AWS WAF?
+29. How do you secure S3 buckets?
+30. What is AWS CloudTrail?
+
+### AWS Networking
+31. What is an Amazon VPC peering connection?
+32. How do you set up a VPN connection in AWS?
+33. What are AWS Direct Connect and its use cases?
+34. Explain the difference between security groups and network ACLs.
+35. How does DNS work in AWS?
+36. What is an Elastic IP?
+37. What is a NAT Gateway?
+38. How do you connect two VPCs?
+39. What is AWS Transit Gateway?
+40. What are subnets in AWS?
+
+### AWS Compute
+41. What are EC2 instance types?
+42. How do you resize an EC2 instance?
+43. What are Amazon Lightsail and its use cases?
+44. What are the different load balancers in AWS?
+45. How do you configure auto-scaling in AWS?
+46. What are spot instances, and when would you use them?
+47. What is an AMI?
+48. How do you create a custom AMI?
+49. What is AWS Elastic Beanstalk?
+50. What are EC2 instance storage options?
+
+### AWS Storage
+51. What is Amazon EBS?
+52. How do you create an EBS volume?
+53. What is the difference between EBS and instance store?
+54. What is Amazon Glacier?
+55. How do you create a lifecycle policy for S3?
+56. What are S3 versioning and its benefits?
+57. How do you configure S3 bucket policies?
+58. What is Amazon EFS?
+59. What is Amazon FSx?
+60. How do you migrate data to AWS?
+
+### AWS Database
+61. What is Amazon DynamoDB?
+62. How do you create a DynamoDB table?
+63. What is Amazon Redshift?
+64. What is Amazon ElastiCache?
+65. How do you back up RDS databases?
+66. What are read replicas in RDS?
+67. What is the difference between RDS and DynamoDB?
+68. How do you scale RDS instances?
+69. What is Aurora in AWS?
+70. How do you configure multi-AZ deployments in RDS?
+
+### AWS Monitoring & Management
+71. What is Amazon CloudWatch?
+72. How do you create CloudWatch alarms?
+73. What is AWS CloudFormation?
+74. How do you create a CloudFormation stack?
+75. What is AWS Systems Manager?
+76. How do you manage AWS resources with Systems Manager?
+77. What is AWS Config?
+78. How do you use AWS Config to manage compliance?
+79. What is AWS OpsWorks?
+80. How do you create and manage OpsWorks stacks?
+
+### AWS DevOps & CI/CD
+81. What is AWS CodePipeline?
+82. How do you create a CI/CD pipeline in AWS?
+83. What is AWS CodeBuild?
+84. How do you build and test code using CodeBuild?
+85. What is AWS CodeDeploy?
+86. How do you deploy applications with CodeDeploy?
+87. What is AWS CodeCommit?
+88. How do you manage code repositories in CodeCommit?
+89. What is AWS Elastic Container Service (ECS)?
+90. How do you deploy Docker containers in ECS?
+
+### AWS Big Data & Analytics
+91. What is Amazon EMR?
+92. How do you run big data applications on EMR?
+93. What is Amazon Kinesis?
+94. How do you process real-time data with Kinesis?
+95. What is Amazon Athena?
+96. How do you query data in S3 using Athena?
+97. What is Amazon QuickSight?
+98. How do you create visualizations in QuickSight?
+99. What is AWS Data Pipeline?
+100. How do you automate data workflows with Data Pipeline?
+
+These questions cover various aspects of AWS, from basic concepts to advanced services and security practices. Studying these topics will help prepare you for AWS-related interviews.
+
+
+
+Here is a list of 100 interview questions on AWS and cloud computing:
+
+### AWS Basics
+1. What is AWS?
+2. What are the main services provided by AWS?
+3. What is the difference between AWS and traditional web hosting?
+4. What is EC2 in AWS?
+5. How does EC2 pricing work?
+6. What are the types of instances in EC2?
+7. What is S3 in AWS?
+8. How does S3 pricing work?
+9. What is the difference between S3 and EBS?
+10. What is AWS Lambda?
+11. How does AWS Lambda work?
+12. What are the benefits of using AWS Lambda?
+13. What is an AWS VPC?
+14. What are the components of an AWS VPC?
+15. What is an Availability Zone in AWS?
+16. What is AWS Route 53?
+17. How does Route 53 work?
+18. What is AWS CloudFront?
+19. What are the use cases of AWS CloudFront?
+20. What is AWS Elastic Beanstalk?
+21. How does AWS Elastic Beanstalk simplify deployment?
+22. What is AWS RDS?
+23. What are the database engines supported by AWS RDS?
+24. What is the difference between RDS and DynamoDB?
+25. What is AWS IAM?
+26. What are IAM roles?
+27. How do you manage permissions in AWS?
+28. What is AWS CloudTrail?
+29. How does AWS CloudTrail help in monitoring?
+30. What is AWS CloudWatch?
+
+### Advanced AWS
+31. What is the difference between AWS CloudFormation and Terraform?
+32. How do you automate resource provisioning in AWS?
+33. What is the concept of a serverless application in AWS?
+34. How does AWS handle auto-scaling?
+35. What are AWS Lambda Layers?
+36. What is AWS Step Functions?
+37. How do AWS Step Functions help in orchestration?
+38. What is AWS Glue?
+39. How does AWS Glue work?
+40. What is the difference between AWS Glue and AWS Data Pipeline?
+41. What is AWS Kinesis?
+42. How does AWS Kinesis work?
+43. What are the use cases of AWS Kinesis?
+44. What is AWS ECS?
+45. What is the difference between AWS ECS and EKS?
+46. How does AWS handle container orchestration?
+47. What is AWS Fargate?
+48. How does AWS Fargate simplify container management?
+49. What is AWS AppSync?
+50. What are the benefits of using AWS AppSync?
+
+### Security and Compliance
+51. How do you secure AWS resources?
+52. What is AWS Shield?
+53. What are the different types of DDoS attacks mitigated by AWS Shield?
+54. What is AWS WAF?
+55. How does AWS WAF protect web applications?
+56. What is AWS Security Hub?
+57. How does AWS Security Hub work?
+58. What is AWS GuardDuty?
+59. How does AWS GuardDuty enhance security monitoring?
+60. What is AWS Secrets Manager?
+61. How do you manage secrets in AWS?
+62. What is AWS KMS?
+63. How does AWS KMS help in encryption?
+64. What is the difference between AWS KMS and AWS CloudHSM?
+65. What are AWS Organizations?
+66. How do AWS Organizations help in managing multiple AWS accounts?
+67. What is the difference between AWS Config and AWS CloudTrail?
+68. How does AWS Config help in compliance management?
+69. What is the Shared Responsibility Model in AWS?
+70. How do you ensure compliance with regulatory standards in AWS?
+
+### Networking and Content Delivery
+71. What is AWS Direct Connect?
+72. How does AWS Direct Connect differ from a VPN?
+73. What is AWS Transit Gateway?
+74. How does AWS Transit Gateway simplify network management?
+75. What is AWS Global Accelerator?
+76. How does AWS Global Accelerator improve application performance?
+77. What is the difference between AWS Global Accelerator and AWS CloudFront?
+78. What is an AWS NAT Gateway?
+79. How does an AWS NAT Gateway work?
+80. What is the difference between an AWS NAT Gateway and an Internet Gateway?
+81. What are AWS Elastic Load Balancers?
+82. What are the different types of Elastic Load Balancers?
+83. How does AWS Elastic Load Balancer handle incoming traffic?
+84. What is an AWS Network ACL?
+85. How do AWS Network ACLs differ from Security Groups?
+86. What is AWS VPN?
+87. How does AWS VPN work?
+88. What are the use cases of AWS VPN?
+
+### Cost Management
+89. How do you manage costs in AWS?
+90. What is AWS Cost Explorer?
+91. How does AWS Cost Explorer help in cost management?
+92. What is AWS Budgets?
+93. How do you set up AWS Budgets?
+94. What is AWS Savings Plans?
+95. How do AWS Savings Plans work?
+96. What is AWS Cost Anomaly Detection?
+97. How does AWS Cost Anomaly Detection help in identifying cost anomalies?
+98. What are the different types of AWS pricing models?
+99. How do you estimate AWS costs for a new project?
+100. What are AWS Reserved Instances?
+
+These questions cover a wide range of AWS topics, from basic concepts to advanced services and security features, providing a comprehensive preparation guide for AWS interviews.
+
+Certainly! Here are additional AWS and cloud-related interview questions, covering more advanced topics and scenarios:
+
+### AWS Architecture and Design
+101. What is a Well-Architected Framework in AWS?
+102. Can you explain the five pillars of the AWS Well-Architected Framework?
+103. How do you design a scalable web application on AWS?
+104. What is AWS Auto Scaling, and how does it work?
+105. How do you ensure high availability in AWS architecture?
+106. What are best practices for designing a multi-region architecture?
+107. What is a decoupled architecture in AWS?
+108. How do you implement a microservices architecture in AWS?
+109. What is the difference between scaling vertically and scaling horizontally in AWS?
+110. How do you design a disaster recovery (DR) solution in AWS?
+
+### AWS Data Services
+111. What is Amazon Redshift?
+112. How does Amazon Redshift differ from traditional data warehouses?
+113. What is AWS Data Lake?
+114. How do you implement a data lake architecture in AWS?
+115. What is Amazon Athena?
+116. How does Amazon Athena work for querying data?
+117. What is the difference between Amazon EMR and AWS Glue?
+118. What are the use cases for AWS Data Pipeline?
+119. How do you migrate a database to AWS using AWS Database Migration Service (DMS)?
+120. What is Amazon QuickSight, and how is it used?
+
+### AWS DevOps
+121. What is AWS CodePipeline?
+122. How does AWS CodePipeline integrate with other AWS services?
+123. What is AWS CodeDeploy, and how does it work?
+124. How do you implement a CI/CD pipeline in AWS?
+125. What is AWS CodeBuild?
+126. How does AWS CodeBuild handle build automation?
+127. What is AWS CodeCommit?
+128. How does AWS CodeCommit compare to other version control systems?
+129. How do you use AWS X-Ray for debugging and monitoring applications?
+130. What is AWS Cloud9, and how is it used for development?
+
+### AWS Machine Learning and AI
+131. What is Amazon SageMaker?
+132. How does Amazon SageMaker simplify machine learning workflows?
+133. What are the key components of Amazon SageMaker?
+134. What is Amazon Rekognition?
+135. How does Amazon Rekognition work for image and video analysis?
+136. What is Amazon Lex, and how does it power conversational interfaces?
+137. What is Amazon Polly?
+138. How does Amazon Polly convert text to speech?
+139. What are the benefits of using AWS DeepLens?
+140. How does AWS Comprehend perform natural language processing?
+
+### AWS Security Best Practices
+141. What are some best practices for securing your AWS account?
+142. How do you secure access to AWS resources?
+143. What is the principle of least privilege in AWS?
+144. How do you implement Multi-Factor Authentication (MFA) in AWS?
+145. How do you ensure data encryption at rest in AWS?
+146. How do you secure data in transit in AWS?
+147. What is AWS Inspector?
+148. How does AWS Inspector perform security assessments?
+149. What are AWS Security Groups, and how do they differ from NACLs?
+150. How do you audit AWS resources for compliance?
+
+### AWS Hybrid Cloud and Migration
+151. What is AWS Outposts?
+152. How does AWS Outposts enable hybrid cloud deployment?
+153. What is AWS Snowball, and how is it used for data transfer?
+154. What is AWS Direct Connect, and how does it facilitate hybrid cloud?
+155. How do you plan a cloud migration strategy to AWS?
+156. What are the stages of the AWS Migration Acceleration Program (MAP)?
+157. How do you handle application dependencies during migration?
+158. What tools does AWS provide for application migration?
+159. What is the difference between a lift-and-shift migration and a rearchitecting migration?
+160. How do you validate a successful migration to AWS?
+
+### AWS Certifications and Training
+161. What AWS certifications are available, and how do they differ?
+162. What is the AWS Certified Solutions Architect – Associate certification?
+163. What is the AWS Certified Developer – Associate certification?
+164. What is the AWS Certified SysOps Administrator – Associate certification?
+165. What is the AWS Certified DevOps Engineer – Professional certification?
+166. How do you prepare for AWS certification exams?
+167. What resources are recommended for AWS certification study?
+168. What are AWS training paths for beginners?
+169. How do AWS practice exams help in preparation?
+170. What are the benefits of AWS certifications for career growth?
+
+### AWS Troubleshooting
+171. How do you troubleshoot high latency in an AWS application?
+172. What tools do you use for monitoring AWS services?
+173. How do you handle AWS service outages?
+174. What is AWS Personal Health Dashboard?
+175. How does AWS Trusted Advisor help in troubleshooting?
+176. How do you resolve AWS Lambda cold starts?
+177. What is the process for troubleshooting EC2 instance failures?
+178. How do you diagnose S3 bucket access issues?
+179. What are the common causes of AWS billing anomalies?
+180. How do you handle AWS IAM policy conflicts?
+
+### AWS Ecosystem and Integrations
+181. What are AWS Marketplace and its benefits?
+182. How do third-party tools integrate with AWS services?
+183. What is the AWS Partner Network (APN)?
+184. How does AWS support hybrid cloud with VMware?
+185. How do you use AWS Service Catalog?
+186. What is AWS Amplify, and how does it aid in app development?
+187. What is the AWS IoT Core?
+188. How does AWS IoT Core manage connected devices?
+189. What is the difference between AWS IoT Greengrass and AWS IoT Core?
+190. How do AWS and Kubernetes work together?
+
+These additional questions delve deeper into AWS services, architecture, security, DevOps, AI/ML, and other advanced topics, providing a thorough preparation for AWS interviews at various levels.
+
+Here are some scenario-based AWS and cloud computing interview questions:
+
+### Scenario-Based AWS Questions
+
+1. **Scenario: Web Application Deployment**
+   - You need to deploy a web application on AWS that must handle a variable amount of traffic and ensure high availability. Which services would you use and why?
+   - How would you design the architecture to scale both horizontally and vertically?
+
+2. **Scenario: Data Backup and Recovery**
+   - A client needs a robust backup solution for their on-premises data with quick recovery options in case of a disaster. How would you implement this using AWS services?
+   - Which AWS services would you use for automated backups, and how would you ensure data consistency?
+
+3. **Scenario: Cost Optimization**
+   - Your company has noticed increasing AWS costs, especially from underutilized EC2 instances. How would you identify and reduce these costs?
+   - Which AWS tools and strategies would you use to optimize costs without compromising performance?
+
+4. **Scenario: Security Incident**
+   - Your AWS environment has detected unusual activity suggesting a potential security breach. What steps would you take to investigate and mitigate this issue?
+   - How would you ensure that such incidents are minimized in the future?
+
+5. **Scenario: Multi-Region Deployment**
+   - You have a globally distributed user base and need to deploy your application across multiple AWS regions to reduce latency. How would you design this setup?
+   - What challenges might you face in a multi-region deployment, and how would you address them?
+
+6. **Scenario: Data Migration**
+   - Your company is migrating a large database from an on-premises data center to AWS. What steps would you take to ensure a smooth migration?
+   - How would you handle data consistency and minimize downtime during the migration?
+
+7. **Scenario: Serverless Application**
+   - A client wants to build a serverless application that processes data in real-time. Which AWS services would you recommend, and how would you design the architecture?
+   - What are the benefits and potential drawbacks of using a serverless architecture?
+
+8. **Scenario: Disaster Recovery**
+   - A company requires a disaster recovery solution with a Recovery Time Objective (RTO) of 1 hour. What AWS services and strategies would you implement to meet this requirement?
+   - How would you test and ensure the reliability of your disaster recovery plan?
+
+9. **Scenario: IoT Integration**
+   - You need to manage a fleet of IoT devices that send data to AWS for analysis. Which AWS services would you use, and how would you ensure secure communication and scalability?
+   - How would you handle the data storage and processing needs of the IoT data?
+
+10. **Scenario: Compliance and Auditing**
+    - Your company must comply with strict data governance and auditing regulations. How would you configure your AWS environment to ensure compliance?
+    - Which AWS services would you use for monitoring, logging, and auditing purposes?
+
+11. **Scenario: Continuous Deployment**
+    - You are tasked with setting up a continuous deployment pipeline for a web application using AWS services. How would you implement this pipeline?
+    - How would you handle version control, testing, and deployment stages to ensure a reliable CI/CD process?
+
+12. **Scenario: Hybrid Cloud**
+    - A client needs to extend their on-premises infrastructure to the cloud while maintaining some workloads locally. How would you implement this hybrid cloud solution using AWS?
+    - What challenges might arise in a hybrid cloud setup, and how would you address them?
+
+13. **Scenario: Application Modernization**
+    - A legacy application needs to be modernized and migrated to AWS. How would you approach this project, and which AWS services would you leverage?
+    - What strategies would you use to refactor or rearchitect the application for the cloud?
+
+14. **Scenario: Real-Time Data Analytics**
+    - Your team needs to set up a real-time data analytics platform on AWS. Which services would you use, and how would you design the solution?
+    - How would you ensure low-latency data processing and scalability for large data volumes?
+
+15. **Scenario: High Traffic Event**
+    - Your e-commerce application is about to experience a high-traffic event (e.g., Black Friday sales). How would you prepare your AWS environment to handle this surge?
+    - What scaling strategies and monitoring tools would you implement to ensure optimal performance?
+
+These scenario-based questions challenge your ability to apply AWS knowledge to real-world situations, testing your problem-solving skills and understanding of AWS services.
