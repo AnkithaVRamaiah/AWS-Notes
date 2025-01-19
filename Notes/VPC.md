@@ -1,8 +1,4 @@
-Here's the updated explanation, including additional components and details for completeness:
-
----
-
-### AWS VPC Components Explained (Updated):
+# AWS VPC Components Explained :
 
 1. **Internet Gateway (IGW)**:
    - A gateway that connects your **VPC** to the **internet**.
@@ -52,13 +48,7 @@ Here's the updated explanation, including additional components and details for 
     - Provides internet access for instances in the **private subnet** by routing traffic to the **internet gateway**.
     - Ensures that resources in the private subnet can access the internet for updates or external services without being exposed to inbound internet traffic.
 
----
-
-Sure! Let me elaborate and explain the **flow** of how a user request moves through the **AWS VPC** using all the components we've discussed, with a step-by-step narrative:
-
----
-
-### Elaborated Flow of a User Request in AWS VPC
+### Flow of a User Request in AWS VPC
 
 1. **User Makes a Request**:
    - A user opens their browser and enters `www.myapp.com`. This triggers a request to resolve this domain name into an IP address.
