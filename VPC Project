@@ -1,0 +1,30 @@
+1. Create vpc on aws, vpc and more so you don't have to create subnets, routable, internet gateway separately if you want to create separately flow these steps(give steps), give project name, cidr, 2 availability zones, 2 public and private subnets, 1 natgateway per availability zones, vpc endpoint none, create vpc. Elascti ip address is static ip address it attach to nat gateway.
+
+2. Go to ec2- autoscaling group create autoscaling group,  give name,
+ launch template- give template name,discretion, select image ubuntu, instance type free instance, key pair, 
+create new security group, give name, description, select vpc that is created, inbound traffic SSH, cutomtcp 8000, launch template, 
+Explain why we are creating template 
+
+Now again go to autoscaling group, select template that is created, next, select vpc, private subnets, next, next, select group size desired and maximum, next create autoscaling group, that have created 2 instances
+
+3. Create a bastion or jump host (public ip address) in same vpc
+ copy pem file of private instances to bastion instance 
+
+4. Login to Bastian host, check pem file of private instance  is available.
+Login to private instance from this Bastian host
+
+5. Create a simple  application saying practicing this project and run on port 8000
+
+Login to only 1 private instance to check how loadbalacing.
+
+6. Create loadbalancer. Application LB, give name, internet facing, ipv4, select vpc, public subnet, security group or create it, 
+Create a target group on new tab, TG instance, group name, http, check vpc, health check http, check instances private once, include as pending, create target group
+
+Add this target group to ALB, protocol http. Port 80. Create LB
+
+Check application is accessible
+
+Traffic is going only to healthy instance
+
+Correct and explain this project and also give a title 
+
